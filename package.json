@@ -1,0 +1,25 @@
+{
+  "name": "firebase-android",
+  "version": "0.1.0",
+  "description": "firebase API client",
+  "scripts": {
+    "build": "tsc"
+  },
+  "main": "lib/index.js",
+  "repository": "https://github.com/pyrosec/firebase-android",
+  "author": "pyrosec",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "android-fingerprints": "https://github.com/pyrosec/android-fingerprints",
+    "base64url": "^3.0.1",
+    "haxios": "^1.1.2",
+    "node-gzip": "^1.1.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.12",
+    "nice-repl": "^0.1.2",
+    "typescript": "^4.9.4"
+  }
+}
